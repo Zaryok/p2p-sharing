@@ -26,7 +26,7 @@ export default function CTASection() {
             id="cta-launch"
             className="glow-btn group inline-flex items-center gap-2 rounded-full bg-white px-8 py-3.5 text-[15px] font-medium text-background transition-all"
           >
-            Launch Peerly
+            Launch SonGoku
             <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
           </Link>
         </div>

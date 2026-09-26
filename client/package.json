@@ -1,5 +1,6 @@
 {
-  "name": "client",
+  "name": "songoku-p2p-client",
+  "author": "SonGoku",
   "private": true,
   "version": "0.0.0",
   "type": "module",

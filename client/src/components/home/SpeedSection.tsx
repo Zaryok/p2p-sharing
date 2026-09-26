@@ -2,7 +2,7 @@ import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 
 const comparisons = [
-  { label: "Peerly (WebRTC)", speed: "Up to 2.4 GB/s", width: 92, accent: true },
+  { label: "SonGoku (WebRTC)", speed: "Up to 2.4 GB/s", width: 92, accent: true },
   { label: "Cloud Upload", speed: "~100 MB/s", width: 38, accent: false },
   { label: "Email Attachment", speed: "~25 MB/s", width: 12, accent: false },
 ];

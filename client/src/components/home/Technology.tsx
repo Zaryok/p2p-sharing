@@ -72,7 +72,7 @@ export default function Technology() {
             </h2>
             <p className="mt-4 text-subtle leading-relaxed">
               Traditional file sharing routes your data through servers — adding
-              latency, cost, and privacy risk. Peerly eliminates the middleman
+              latency, cost, and privacy risk. SonGoku eliminates the middleman
               entirely.
             </p>
             <p className="mt-4 text-subtle leading-relaxed">

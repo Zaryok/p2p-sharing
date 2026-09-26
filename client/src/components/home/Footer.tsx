@@ -8,7 +8,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="flex items-center gap-2">
             <Link to="/" className="text-[15px] font-semibold text-white">
-              Peerly
+              Songoku
             </Link>
             <span className="text-xs text-subtle">
               © {new Date().getFullYear()}
@@ -32,7 +32,7 @@ export default function Footer() {
               Terms
             </a>
             <a
-              href="https://github.com/AayushKP/p2p-sharing"
+              href="https://github.com/RajShree1854/p2p-sharing"
               id="footer-github"
               className="transition-colors hover:text-muted"
               target="_blank"

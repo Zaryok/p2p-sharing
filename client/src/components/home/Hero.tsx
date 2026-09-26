@@ -107,7 +107,7 @@ export default function Hero() {
             to="/app"
             className="glow-btn group flex items-center gap-2 rounded-full bg-white px-8 py-4 text-[15px] font-semibold text-background transition-all shadow-[0_0_40px_rgba(255,255,255,0.15)] hover:shadow-[0_0_60px_rgba(255,255,255,0.3)]"
           >
-            Launch Peerly
+            Launch SonGoku
             <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
           </Link>
         </motion.div>
@@ -128,7 +128,7 @@ export default function Hero() {
             <div className="w-3 h-3 rounded-full bg-white/10" />
             <div className="mx-auto w-48 h-5 rounded-md bg-white/[0.04] border border-white/5 flex items-center justify-center">
               <span className="text-[9px] text-white/40 font-mono tracking-wider">
-                peerly.app
+                songoku.app
               </span>
             </div>
           </div>

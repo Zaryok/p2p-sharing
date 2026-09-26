@@ -38,7 +38,7 @@ export default function UseCases() {
             Built for everyone.
           </h2>
           <p className="mt-3 text-subtle text-lg">
-            A few ways people use Peerly.
+            A few ways people use SonGoku.
           </p>
         </motion.div>
 

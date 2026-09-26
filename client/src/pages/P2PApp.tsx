@@ -94,7 +94,7 @@ function P2PAppContent() {
               size={16}
             />
             <span className="text-[14px] font-semibold tracking-tight text-white/90">
-              Peerly
+              SonGoku
             </span>
           </Link>
         </div>
@@ -380,7 +380,7 @@ function P2PAppContent() {
 
 export default function P2PApp() {
   const [name, setName] = useState<string | null>(() => {
-    return localStorage.getItem("peerly-username");
+    return localStorage.getItem("songoku-username");
   });
   const [nameInput, setNameInput] = useState("");
 
@@ -398,7 +398,7 @@ export default function P2PApp() {
             <Share2 size={28} className="text-accent" />
           </div>
           <h1 className="text-2xl font-bold tracking-tight mb-2 text-white">
-            Welcome to Peerly
+            Welcome to SonGoku
           </h1>
           <p className="text-[#888] text-sm mb-8">
             Enter your name to join the secure peer-to-peer network.
@@ -413,7 +413,7 @@ export default function P2PApp() {
             autoFocus
             onKeyDown={(e) => {
               if (e.key === "Enter" && nameInput.trim()) {
-                localStorage.setItem("peerly-username", nameInput.trim());
+                localStorage.setItem("songoku-username", nameInput.trim());
                 setName(nameInput.trim());
               }
             }}
@@ -422,14 +422,14 @@ export default function P2PApp() {
           <button
             onClick={() => {
               if (nameInput.trim()) {
-                localStorage.setItem("peerly-username", nameInput.trim());
+                localStorage.setItem("songoku-username", nameInput.trim());
                 setName(nameInput.trim());
               }
             }}
             disabled={!nameInput.trim()}
             className="w-full px-4 py-3 bg-white hover:bg-[#e6e6e6] disabled:bg-[#222] disabled:text-[#555] text-black rounded-lg text-sm font-bold transition-all shadow-[0_0_15px_rgba(255,255,255,0.1)] disabled:shadow-none"
           >
-            Launch Peerly
+            Launch SonGoku
           </button>
         </motion.div>
       </div>

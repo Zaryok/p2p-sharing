@@ -4,12 +4,12 @@ import { ChevronDown } from "lucide-react";
 
 const faqs = [
   {
-    q: "What is Peerly?",
-    a: "Peerly is a peer-to-peer file sharing tool that lets you transfer files directly between browsers using WebRTC. No server ever stores or processes your files.",
+    q: "What is SonGoku?",
+    a: "SonGoku is a peer-to-peer file sharing tool that lets you transfer files directly between browsers using WebRTC. No server ever stores or processes your files.",
   },
   {
     q: "Is it free to use?",
-    a: "Yes, Peerly is completely free and open-source. There are no hidden costs, subscriptions, or usage limits.",
+    a: "Yes, SonGoku is completely free and open-source. There are no hidden costs, subscriptions, or usage limits.",
   },
   {
     q: "How secure is the transfer?",
@@ -17,11 +17,11 @@ const faqs = [
   },
   {
     q: "Are there file size limits?",
-    a: "There are no hard limits. Peerly uses 64KB chunked streaming with backpressure handling, so large files transfer reliably. Speed depends on your network connection.",
+    a: "There are no hard limits. SonGoku uses 64KB chunked streaming with backpressure handling, so large files transfer reliably. Speed depends on your network connection.",
   },
   {
     q: "Does it work on mobile?",
-    a: "Yes. Peerly works in any modern browser that supports WebRTC — including Chrome, Firefox, Safari, and Edge on both desktop and mobile devices.",
+    a: "Yes. SonGoku works in any modern browser that supports WebRTC — including Chrome, Firefox, Safari, and Edge on both desktop and mobile devices.",
   },
   {
     q: "What happens if the connection drops?",

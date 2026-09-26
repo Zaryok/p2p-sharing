@@ -66,8 +66,8 @@ See `architecture.md` for a detailed explanation of the signaling server and the
 ### 1. Clone the Repository
 
 ```bash
-git clone <your-repo-url>
-cd p2psharing
+git clone https://github.com/RajShree1854/p2p-sharing.git
+cd p2p-sharing
 ```
 
 ### 2. Setup Server
@@ -261,4 +261,4 @@ VITE_WS_URL=ws://localhost:3001    # WebSocket server URL
 
 ---
 
-Made with React, TypeScript, and WebRTC
+Made with React, TypeScript, and WebRTC by SonGoku
