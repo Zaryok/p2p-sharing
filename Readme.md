@@ -261,4 +261,4 @@ VITE_WS_URL=ws://localhost:3001    # WebSocket server URL
 
 ---
 
-Made with React, TypeScript, and WebRTC by SonGoku
+Made with React, TypeScript, and WebRTC by SonGoku, Krish Saini
